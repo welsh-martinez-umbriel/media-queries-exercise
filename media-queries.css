@@ -55,3 +55,27 @@
         align-self: flex-start;
     }
 }
+
+@media screen and (min-width:501px) {
+    
+     body {
+         display: flex;
+         flex-wrap: wrap;
+        background: red;
+         align-content: flex-start;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        justify-content: flex-end;
+    }
+    li {
+
+    }
+.hidden-on-desktop {
+    display: none;
+}
+
+}
